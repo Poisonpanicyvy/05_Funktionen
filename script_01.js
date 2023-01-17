@@ -9,21 +9,18 @@
 
 // Funktionsrumpf (body) | callee
 // Funktionsdeklaration
-function test()
+function test(){}
 
-{
-console.log("Hallo Poisonpanicyvy");
-}
+
 
 // Funktion 2 
 // Parametrisierung + Datenübergabe von innen
 
+
 ausgabeNamen();
+// console.log(firstName); // Fehler: scope
 
 function ausgabeNamen() {
-    console.log("Hallo Poisonpanicyvy");
-    console.log("Hallo martin");
- console.log("Hallo Stefan");
-    console.log("Hallo Peter");
-
+    let firstName = "Poisonpanicyvy";
+    console.log("Hallo " + firstName + "!");
 }
